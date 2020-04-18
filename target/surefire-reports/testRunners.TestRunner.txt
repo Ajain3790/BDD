@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: testRunners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 45.249 sec <<< FAILURE!
+Luanch Home Page(Google Homepage)  Time elapsed: 19.949 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+The following assertion failed:
+1) 
+Expecting:
+ <"Collaboration software | Slack">
+to be equal to:
+ <"Features | Slack">
+ignoring case considerations
+at HomePage.user_should_navigate_to_product_page(HomePage.java:52)
+
+	at org.assertj.core.api.SoftAssertions.assertAll(SoftAssertions.java:158)
+	at stepDefinitions.HomePage.user_should_navigate_to_product_page(HomePage.java:53)
+	at ?.User should navigate to product page(src/test/Features/HomePage.feature:9)
+
