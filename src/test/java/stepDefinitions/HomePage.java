@@ -8,6 +8,8 @@ import static testRunners.TestRunner.*;
 import java.util.concurrent.TimeUnit;
 
 import org.assertj.core.api.SoftAssertions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static common.GenericDriver.*;
 
@@ -44,11 +46,12 @@ public class HomePage {
 
 	@Then("^User should navigate to product page$")
 	public void user_should_navigate_to_product_page() {
-		
+		WebDriverWait wait = new WebDriverWait(driver, 15);
+		  wait.until(ExpectedConditions.elementToBeClickable(HomePageInstance.SingInLink));
 		String actual = driver.getTitle();
 		 System.out.println(actual);
 		 String expected="Features | Slack";
-		  SoftAssertions sa = new SoftAssertions();
+		 SoftAssertions sa = new SoftAssertions();
 		    sa.assertThat(actual).isEqualToIgnoringCase(expected);
 		    sa.assertAll();
 	 
