@@ -39,7 +39,7 @@ public class LoginPage {
 	@Then("^user should login successfully$")
 	public void user_should_login_successfully() {
 	    String actual = driver.getTitle();
-	    String Expected= "Slack";
+	    String Expected= "Slack1";
 	    
 	    SoftAssertions sa = new SoftAssertions();
 	    sa.assertThat(actual).isEqualToIgnoringCase(Expected);
