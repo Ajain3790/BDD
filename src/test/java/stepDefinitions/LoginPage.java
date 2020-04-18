@@ -14,7 +14,7 @@ public class LoginPage {
 	
 	@Given("^user lands on login page$")
 	public void user_lands_on_login_page() {
-		driver.navigate().back();
+		//driver.navigate().back();
 	}
 
 	@When("^user enter valid email \"([^\"]*)\"$")
