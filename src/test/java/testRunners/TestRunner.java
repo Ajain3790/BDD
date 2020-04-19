@@ -17,7 +17,7 @@ import seleniumPage.HomePageLocaters;
 import seleniumPage.LoginPageLocaters;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/Features", glue= "stepDefinitions",
+@CucumberOptions(features="src/test/Features", glue= "stepDefinitions", tags ={"@Smoke"},
 
 plugin = {
         //"rerun:target/rerun.txt",
