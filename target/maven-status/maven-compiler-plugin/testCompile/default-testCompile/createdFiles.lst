@@ -3,5 +3,6 @@ seleniumPage\LoginPageLocaters.class
 stepDefinitions\LoginPage.class
 testRunners\TestRunner.class
 seleniumPage\HomePageLocaters.class
+testRunners\TestRunnerFailed.class
 seleniumPage\AbstractPage.class
 stepDefinitions\HomePage.class

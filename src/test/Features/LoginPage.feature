@@ -1,5 +1,6 @@
 Feature: To check the Login functionality
 
+@Smoke
 Scenario: Valid login
 Given user lands on login page
 When user enter valid email "abhishek.jain@worldpay.com"

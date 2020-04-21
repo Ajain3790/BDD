@@ -1,17 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: testRunners.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 64.897 s <<< FAILURE! - in testRunners.TestRunner
-Google Homepage.Luanch Home Page  Time elapsed: 17.3 s  <<< FAILURE!
-org.assertj.core.api.SoftAssertionError: 
-
-The following assertion failed:
-1) 
-Expecting:
- <"Features | Slack">
-to be equal to:
- <"Features | Slack1">
-ignoring case considerations
-at HomePage.user_should_navigate_to_product_page(HomePage.java:55)
-
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 60.244 s <<< FAILURE! - in testRunners.TestRunner
+To check the Login functionality.Valid login  Time elapsed: 11.593 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //input[@id='email']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ABHISHEK', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: true, moz:processID: 976, moz:profile: C:\Users\a\AppData\Local\Te..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1ef32e11-3cde-403c-8286-224809a4c286
+*** Element info: {Using=xpath, value=//input[@id='email']}
 
