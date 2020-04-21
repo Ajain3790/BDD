@@ -8,5 +8,3 @@ Then Homepage should be launched as default page
 When user click on Product Link
 Then User should navigate to product page
 
-
-

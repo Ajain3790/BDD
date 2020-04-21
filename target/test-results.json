@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 19245228300,
+              "duration": 5423686500,
               "status": "passed"
             },
             "line": 6,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 3836179500,
+              "duration": 1359089400,
               "status": "passed"
             },
             "line": 7,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 11935082100,
+              "duration": 5321504200,
               "status": "passed"
             },
             "line": 8,
@@ -54,8 +54,8 @@
           },
           {
             "result": {
-              "error_message": "org.assertj.core.api.SoftAssertionError: \r\nThe following assertion failed:\r\n1) \r\nExpecting:\r\n \u003c\"Collaboration software | Slack\"\u003e\r\nto be equal to:\r\n \u003c\"Features | Slack1\"\u003e\r\nignoring case considerations\r\nat HomePage.user_should_navigate_to_product_page(HomePage.java:55)\r\n\r\n\tat org.assertj.core.api.SoftAssertions.assertAll(SoftAssertions.java:158)\r\n\tat stepDefinitions.HomePage.user_should_navigate_to_product_page(HomePage.java:56)\r\n\tat ✽.User should navigate to product page(src/test/Features/HomePage.feature:9)\r\n",
-              "duration": 1946598400,
+              "error_message": "org.assertj.core.api.SoftAssertionError: \r\nThe following assertion failed:\r\n1) \r\nExpecting:\r\n \u003c\"Features | Slack\"\u003e\r\nto be equal to:\r\n \u003c\"Features | Slack1\"\u003e\r\nignoring case considerations\r\nat HomePage.user_should_navigate_to_product_page(HomePage.java:55)\r\n\r\n\tat org.assertj.core.api.SoftAssertions.assertAll(SoftAssertions.java:158)\r\n\tat stepDefinitions.HomePage.user_should_navigate_to_product_page(HomePage.java:56)\r\n\tat ✽.User should navigate to product page(src/test/Features/HomePage.feature:9)\r\n",
+              "duration": 4755360300,
               "status": "failed"
             },
             "line": 9,

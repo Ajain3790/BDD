@@ -20,9 +20,9 @@ import seleniumPage.LoginPageLocaters;
 @CucumberOptions(features="src/test/Features", glue= "stepDefinitions", tags ={"@Smoke"},
 
 plugin = {
-        //"rerun:target/rerun.txt",
-        "pretty",
-       "junit:target/cucumber-xml-report.xml",
+         "rerun:target/rerun.txt",
+         "pretty",
+        "junit:target/cucumber-xml-report.xml",
         "html:target/cucumber-reports",
         "json:target/test-results.json"
 		// "pretty", "json:target/cucumber-reports/Cucumber.json",
