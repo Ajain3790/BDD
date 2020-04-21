@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="29.935294">
-<testcase classname="Google Homepage" name="Luanch Home Page" time="24.593812">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.316591">
+<testcase classname="Google Homepage" name="Luanch Home Page" time="18.316591">
 <system-out><![CDATA[When User enter valid URL "https://worldpayproduct.slack.com/"..............passed
 Then Homepage should be launched as default page............................passed
 When user click on Product Link.............................................passed
 Then User should navigate to product page...................................passed
-]]></system-out>
-</testcase>
-<testcase classname="To check the Login functionality" name="Valid login" time="5.341482">
-<system-out><![CDATA[Given user lands on login page..............................................passed
-When user enter valid email "abhishek.jain@worldpay.com"....................passed
-And user enter valid password "Abhi@2153"...................................passed
-And user click on login button..............................................passed
-Then user should login successfully.........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

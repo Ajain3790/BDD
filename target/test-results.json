@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6958439500,
+              "duration": 10478393400,
               "status": "passed"
             },
             "line": 6,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 403065800,
+              "duration": 1043848300,
               "status": "passed"
             },
             "line": 7,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 17052606700,
+              "duration": 5869569600,
               "status": "passed"
             },
             "line": 8,
@@ -54,7 +54,7 @@
           },
           {
             "result": {
-              "duration": 152929600,
+              "duration": 890755700,
               "status": "passed"
             },
             "line": 9,
@@ -77,99 +77,6 @@
     "id": "google-homepage",
     "keyword": "Feature",
     "uri": "src/test/Features/HomePage.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 3,
-        "name": "Valid login",
-        "description": "",
-        "id": "to-check-the-login-functionality;valid-login",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1460087300,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user lands on login page",
-            "match": {
-              "location": "LoginPage.user_lands_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 235737500,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enter valid email \"abhishek.jain@worldpay.com\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "abhishek.jain@worldpay.com",
-                  "offset": 24
-                }
-              ],
-              "location": "LoginPage.user_enter_valid_email(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 66800900,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user enter valid password \"Abhi@2153\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Abhi@2153",
-                  "offset": 27
-                }
-              ],
-              "location": "LoginPage.user_enter_valid_password(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3568630800,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user click on login button",
-            "match": {
-              "location": "LoginPage.user_click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3221500,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user should login successfully",
-            "match": {
-              "location": "LoginPage.user_should_login_successfully()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "To check the Login functionality",
-    "description": "",
-    "id": "to-check-the-login-functionality",
-    "keyword": "Feature",
-    "uri": "src/test/Features/LoginPage.feature",
     "tags": []
   }
 ]

@@ -17,7 +17,7 @@ import seleniumPage.HomePageLocaters;
 import seleniumPage.LoginPageLocaters;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/Features", glue= "stepDefinitions",
+@CucumberOptions(features="src/test/Features", glue= "stepDefinitions", tags ={"@Smoke"},
 
 plugin = {
         //"rerun:target/rerun.txt",
@@ -28,6 +28,7 @@ plugin = {
 		// "pretty", "json:target/cucumber-reports/Cucumber.json",
 		// "junit:target/cucumber-reports/Cucumber.xml",
 		// "html:target/cucumber-reports"
+        
 }, 
 
 monochrome = true)
