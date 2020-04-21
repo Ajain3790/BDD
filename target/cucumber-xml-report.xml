@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.316591">
-<testcase classname="Google Homepage" name="Luanch Home Page" time="18.316591">
-<system-out><![CDATA[When User enter valid URL "https://worldpayproduct.slack.com/"..............passed
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="37.106749">
+<testcase classname="Google Homepage" name="Luanch Home Page" time="37.106749">
+<failure message="org.assertj.core.api.SoftAssertionError: &#13;&#10;The following assertion failed:&#13;&#10;1) &#13;&#10;Expecting:&#13;&#10; &lt;&quot;Collaboration software | Slack&quot;&gt;&#13;&#10;to be equal to:&#13;&#10; &lt;&quot;Features | Slack1&quot;&gt;&#13;&#10;ignoring case considerations&#13;&#10;at HomePage.user_should_navigate_to_product_page(HomePage.java:55)&#13;&#10;&#13;&#10;&#9;at org.assertj.core.api.SoftAssertions.assertAll(SoftAssertions.java:158)&#13;&#10;&#9;at stepDefinitions.HomePage.user_should_navigate_to_product_page(HomePage.java:56)&#13;&#10;&#9;at ✽.User should navigate to product page(src/test/Features/HomePage.feature:9)&#13;&#10;"><![CDATA[When User enter valid URL "https://worldpayproduct.slack.com/"..............passed
 Then Homepage should be launched as default page............................passed
 When user click on Product Link.............................................passed
-Then User should navigate to product page...................................passed
-]]></system-out>
+Then User should navigate to product page...................................failed
+
+StackTrace:
+org.assertj.core.api.SoftAssertionError: 
+The following assertion failed:
+1) 
+Expecting:
+ <"Collaboration software | Slack">
+to be equal to:
+ <"Features | Slack1">
+ignoring case considerations
+at HomePage.user_should_navigate_to_product_page(HomePage.java:55)
+
+	at org.assertj.core.api.SoftAssertions.assertAll(SoftAssertions.java:158)
+	at stepDefinitions.HomePage.user_should_navigate_to_product_page(HomePage.java:56)
+	at ✽.User should navigate to product page(src/test/Features/HomePage.feature:9)
+]]></failure>
 </testcase>
 </testsuite>

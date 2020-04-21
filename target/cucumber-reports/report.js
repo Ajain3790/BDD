@@ -52,6 +52,7 @@ formatter.match({
   "location": "HomePage.user_should_navigate_to_product_page()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "org.assertj.core.api.SoftAssertionError: \r\nThe following assertion failed:\r\n1) \r\nExpecting:\r\n \u003c\"Collaboration software | Slack\"\u003e\r\nto be equal to:\r\n \u003c\"Features | Slack1\"\u003e\r\nignoring case considerations\r\nat HomePage.user_should_navigate_to_product_page(HomePage.java:55)\r\n\r\n\tat org.assertj.core.api.SoftAssertions.assertAll(SoftAssertions.java:158)\r\n\tat stepDefinitions.HomePage.user_should_navigate_to_product_page(HomePage.java:56)\r\n\tat ✽.User should navigate to product page(src/test/Features/HomePage.feature:9)\r\n",
+  "status": "failed"
 });
 });
