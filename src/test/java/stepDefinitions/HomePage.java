@@ -50,7 +50,7 @@ public class HomePage {
 		  wait.until(ExpectedConditions.elementToBeClickable(HomePageInstance.SingInLink));
 		String actual = driver.getTitle();
 		 System.out.println(actual);
-		 String expected="Features | Slack";
+		 String expected="Features | Slack1";
 		 SoftAssertions sa = new SoftAssertions();
 		    sa.assertThat(actual).isEqualToIgnoringCase(expected);
 		    sa.assertAll();
