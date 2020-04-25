@@ -29,7 +29,8 @@ public class TestRunnerFailed {
 	@BeforeClass
 	public static void Browsersetup(){
 		
-		GenericDriver.launchBrowser("Chrome");
+		//GenericDriver.launchBrowser("Chrome");
+		GenericDriver.launchChrome();
 		pageObjectSetup();
 		
 	}

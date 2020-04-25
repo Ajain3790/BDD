@@ -40,8 +40,8 @@ public class TestRunnerFireFox {
 	@BeforeClass
 	public static void Browsersetup(){
 		
-		String FirefoxBrowser = System.getProperty("Firefoxbrowser");
-		GenericDriver.launchBrowser(FirefoxBrowser);
+		//String FirefoxBrowser = System.getProperty("Firefoxbrowser");
+		GenericDriver.launchFirefox();
 		pageObjectSetup();
 		
 	}

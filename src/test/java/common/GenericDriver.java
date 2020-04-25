@@ -15,10 +15,9 @@ public class GenericDriver {
 	
 	public static WebDriver driver;
 	
-	public static void launchBrowser(String browser)
+	public static void launchChrome()
 	{
-		if(browser.equalsIgnoreCase("Chrome"))
-		{
+		
 	
 	    	WebDriverManager.chromedriver().setup();
 			ChromeOptions option=new ChromeOptions();
@@ -28,8 +27,10 @@ public class GenericDriver {
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 			
-		}else if(browser.equalsIgnoreCase("FireFox"))
-		{
+		}
+	public static void launchFirefox()
+	{
+	
 	
 	    	WebDriverManager.firefoxdriver().setup();
 			FirefoxOptions option=new FirefoxOptions();
@@ -43,4 +44,4 @@ public class GenericDriver {
 		
 	}
 
-}
+

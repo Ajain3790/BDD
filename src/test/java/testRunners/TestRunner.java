@@ -42,8 +42,8 @@ public class TestRunner {
 	
 	@BeforeClass
 	public static void Browsersetup(){
-		String ChromeBrowser = System.getProperty("Chromebrowser");
-		GenericDriver.launchBrowser(ChromeBrowser);
+		//String ChromeBrowser = System.getProperty("Chromebrowser");
+		GenericDriver.launchChrome();
 		pageObjectSetup();
 		
 	}

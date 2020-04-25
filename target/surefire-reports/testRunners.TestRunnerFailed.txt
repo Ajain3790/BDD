@@ -1,4 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: testRunners.TestRunnerFailed
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in testRunners.TestRunnerFailed
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.178 s <<< FAILURE! - in testRunners.TestRunnerFailed
+Google Homepage.Luanch Home Page  Time elapsed: 1.696 s  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=81.0.4044.122)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ABHISHEK', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\a\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:54006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fa03e0bff1e7382b1c49a4947f49d803
+
