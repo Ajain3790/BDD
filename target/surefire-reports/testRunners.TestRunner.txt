@@ -1,15 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: testRunners.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 33.415 s <<< FAILURE! - in testRunners.TestRunner
-Google Homepage.Luanch Home Page  Time elapsed: 17.372 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-chrome not reachable
-  (Session info: chrome=81.0.4044.122)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ABHISHEK', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\a\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:53967}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: a0032b1792b3e44f23e4a6a1fcd4d4f6
-*** Element info: {Using=xpath, value=/html/body/header/nav[1]/div/nav/div/a[1]}
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.032 s <<< FAILURE! - in testRunners.TestRunner
+Google Homepage.Luanch Home Page  Time elapsed: 7.98 s  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) 
+Expecting:
+ <"Collaboration software | Slack">
+to be equal to:
+ <"Features | Slack">
+ignoring case considerations
+at HomePage.user_should_navigate_to_product_page(HomePage.java:57)
+
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testRunners.TestRunner" time="33.415" tests="1" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testRunners.TestRunner" time="21.032" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\a\AppData\Local\Temp\surefire2070804958078551129\surefirebooter1075137547510880938.jar C:\Users\a\AppData\Local\Temp\surefire2070804958078551129 2020-04-25T13-33-49_139-jvmRun1 surefire2843357674616725696tmp surefire_02887912767554300012tmp"/>
+    <property name="sun.java.command" value="C:\Users\a\AppData\Local\Temp\surefire851932949643933833\surefirebooter4365315233568771830.jar C:\Users\a\AppData\Local\Temp\surefire851932949643933833 2020-04-25T15-23-00_919-jvmRun1 surefire1955861494414568595tmp surefire_0578531047611159529tmp"/>
     <property name="surefire.test.class.path" value="D:\Abhishek\Selenium\BDDLearning\BDDLearning\target\test-classes;D:\Abhishek\Selenium\BDDLearning\BDDLearning\target\classes;C:\Users\a\.m2\repository\io\cucumber\cucumber-core\2.4.0\cucumber-core-2.4.0.jar;C:\Users\a\.m2\repository\info\cukes\cucumber-html\0.2.6\cucumber-html-0.2.6.jar;C:\Users\a\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\a\.m2\repository\io\cucumber\cucumber-java\2.4.0\cucumber-java-2.4.0.jar;C:\Users\a\.m2\repository\io\cucumber\cucumber-junit\2.4.0\cucumber-junit-2.4.0.jar;C:\Users\a\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\a\.m2\repository\net\masterthought\cucumber-reporting\5.1.1\cucumber-reporting-5.1.1.jar;C:\Users\a\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1.jar;C:\Users\a\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar;C:\Users\a\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1.jar;C:\Users\a\.m2\repository\org\apache\velocity\velocity-engine-core\2.1\velocity-engine-core-2.1.jar;C:\Users\a\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\a\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\a\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\a\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\a\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\a\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\a\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20191001.1\owasp-java-html-sanitizer-20191001.1.jar;C:\Users\a\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\a\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\a\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\a\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\a\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\a\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\a\.m2\repository\io\cucumber\gherkin\5.0.0\gherkin-5.0.0.jar;C:\Users\a\.m2\repository\io\cucumber\gherkin-jvm-deps\1.0.4\gherkin-jvm-deps-1.0.4.jar;C:\Users\a\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\a\.m2\repository\org\mockito\mockito-all\1.10.19\mockito-all-1.10.19.jar;C:\Users\a\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\a\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\a\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\a\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\a\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\a\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\a\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\a\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\a\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\a\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\a\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\a\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\a\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\a\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\a\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\a\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\a\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\a\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\a\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\a\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\a\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\a\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\a\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\a\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\a\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\a\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\a\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\a\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\a\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\a\.m2\repository\org\assertj\assertj-core\3.9.0\assertj-core-3.9.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\a"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\a\AppData\Local\Temp\surefire2070804958078551129\surefirebooter1075137547510880938.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\a\AppData\Local\Temp\surefire851932949643933833\surefirebooter4365315233568771830.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,17 +60,19 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Luanch Home Page" classname="Google Homepage" time="17.372">
-    <error message="chrome not reachable&#10;  (Session info: chrome=81.0.4044.122)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ABHISHEK&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\a\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:53967}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: a0032b1792b3e44f23e4a6a1fcd4d4f6&#10;*** Element info: {Using=xpath, value=/html/body/header/nav[1]/div/nav/div/a[1]}" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-chrome not reachable
-  (Session info: chrome=81.0.4044.122)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ABHISHEK', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\a\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:53967}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: a0032b1792b3e44f23e4a6a1fcd4d4f6
-*** Element info: {Using=xpath, value=/html/body/header/nav[1]/div/nav/div/a[1]}
-]]></error>
+  <testcase name="Luanch Home Page" classname="Google Homepage" time="7.98">
+    <failure message="&#10;The following assertion failed:&#10;1) &#10;Expecting:&#10; &lt;&quot;Collaboration software | Slack&quot;&gt;&#10;to be equal to:&#10; &lt;&quot;Features | Slack&quot;&gt;&#10;ignoring case considerations&#10;at HomePage.user_should_navigate_to_product_page(HomePage.java:57)&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) 
+Expecting:
+ <"Collaboration software | Slack">
+to be equal to:
+ <"Features | Slack">
+ignoring case considerations
+at HomePage.user_should_navigate_to_product_page(HomePage.java:57)
+
+]]></failure>
     <system-out><![CDATA[Feature: Google Homepage
 This feature verifies the functionality on Google Homepage
 
@@ -80,59 +82,45 @@ This feature verifies the functionality on Google Homepage
 Slack
     Then Homepage should be launched as default page               # HomePage.homepage_should_be_launched_as_default_page()
     When user click on Product Link                                # HomePage.user_click_on_Product_Link()
+Collaboration software | Slack
     Then User should navigate to product page                      # HomePage.user_should_navigate_to_product_page()
-      org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=81.0.4044.122)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ABHISHEK', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\a\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:53967}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: a0032b1792b3e44f23e4a6a1fcd4d4f6
-*** Element info: {Using=xpath, value=/html/body/header/nav[1]/div/nav/div/a[1]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy16.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at stepDefinitions.HomePage.user_should_navigate_to_product_page(HomePage.java:50)
+      org.assertj.core.api.SoftAssertionError: 
+The following assertion failed:
+1) 
+Expecting:
+ <"Collaboration software | Slack">
+to be equal to:
+ <"Features | Slack">
+ignoring case considerations
+at HomePage.user_should_navigate_to_product_page(HomePage.java:57)
+
+	at org.assertj.core.api.SoftAssertions.assertAll(SoftAssertions.java:158)
+	at stepDefinitions.HomePage.user_should_navigate_to_product_page(HomePage.java:58)
 	at ?.User should navigate to product page(src/test/Features/HomePage.feature:9)
 
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 41116
+Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 12257
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Apr 25, 2020 1:34:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Apr 25, 2020 3:23:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1587801847.727][SEVERE]: Timed out receiving message from renderer: 0.100
-[1587801847.859][SEVERE]: Timed out receiving message from renderer: 0.100
-[1587801848.011][SEVERE]: Timed out receiving message from renderer: 0.100
-[1587801848.114][SEVERE]: Timed out receiving message from renderer: 0.100
-[1587801848.973][SEVERE]: Timed out receiving message from renderer: 0.100
-[1587801849.080][SEVERE]: Timed out receiving message from renderer: 0.100
-[1587801849.188][SEVERE]: Timed out receiving message from renderer: 0.100
-[1587801855.577][WARNING]: Timed out connecting to Chrome, retrying...
+[1587808394.607][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587808394.709][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587808394.902][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587808395.004][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587808395.109][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587808395.992][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587808396.096][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587808396.212][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587808396.313][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587808396.415][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587808398.533][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587808398.641][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587808398.742][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587808398.923][SEVERE]: Timed out receiving message from renderer: 0.100
 ]]></system-err>
   </testcase>
 </testsuite>

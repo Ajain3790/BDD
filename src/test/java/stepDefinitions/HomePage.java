@@ -17,17 +17,17 @@ import static common.GenericDriver.*;
    
 public class HomePage {
 	
-	GenericDriver GD =new GenericDriver();
+	
 	@When("^User enter valid URL \"([^\"]*)\"$")
 	public void user_enter_valid_URL(String arg1) {
 	   
-		GD.driver.get(arg1);
+		driver.get(arg1);
 	}
 
 	@Then("^Homepage should be launched as default page$")
 	public void homepage_should_be_launched_as_default_page() {
 	   
-	  String actual = GD.driver.getTitle();
+	  String actual = driver.getTitle();
 	  System.out.println(actual);
 	 String Expected= "Slack";  
 	 SoftAssertions sa = new SoftAssertions();
@@ -42,15 +42,15 @@ public class HomePage {
 	public void user_click_on_Product_Link() {
 		
 		HomePageInstance.ProductLink.click();
-		GD.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	   
 	}
 
 	@Then("^User should navigate to product page$")
 	public void user_should_navigate_to_product_page() {
-		WebDriverWait wait = new WebDriverWait(GD.driver, 15);
+		WebDriverWait wait = new WebDriverWait(driver, 15);
 		  wait.until(ExpectedConditions.elementToBeClickable(HomePageInstance.SingInLink));
-		String actual = GD.driver.getTitle();
+		String actual = driver.getTitle();
 		 System.out.println(actual);
 		 String expected="Features | Slack";
 		 SoftAssertions sa = new SoftAssertions();

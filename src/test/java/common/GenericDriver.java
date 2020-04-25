@@ -13,12 +13,12 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class GenericDriver {
 	
-	public WebDriver driver;
-	
-	public void launchChrome()
-	{
+	public static WebDriver driver;
 		
-	
+	public static void launchBrowser(String browser)
+	{
+		if(browser.equalsIgnoreCase("Chrome"))
+		{
 	    	WebDriverManager.chromedriver().setup();
 			ChromeOptions option=new ChromeOptions();
 			//option.setHeadless(true);
@@ -27,10 +27,8 @@ public class GenericDriver {
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 			
-		}
-	public void launchFirefox()
-	{
-	
+		}else if(browser.equalsIgnoreCase("Firefox"))
+		{
 	
 	    	WebDriverManager.firefoxdriver().setup();
 			FirefoxOptions option=new FirefoxOptions();
@@ -43,5 +41,5 @@ public class GenericDriver {
 		}
 		
 	}
-
+}
 

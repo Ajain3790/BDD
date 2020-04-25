@@ -3,7 +3,7 @@ package stepDefinitions;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import common.GenericDriver;
+import static common.GenericDriver.*;
 import static testRunners.TestRunner.LoginPageInstance;
 import org.assertj.core.api.SoftAssertions;
 
@@ -11,11 +11,11 @@ import org.assertj.core.api.SoftAssertions;
 import org.assertj.core.api.SoftAssertions;
 
 public class LoginPage {
-	GenericDriver GD =new GenericDriver();
+	
 	@Given("^user lands on login page \"([^\"]*)\"$")
 	public void user_lands_on_login_page(String arg1) {
 		
-		GD.driver.get(arg1);
+		driver.get(arg1);
 	}
 
 	@When("^user enter valid email \"([^\"]*)\"$")
@@ -39,7 +39,7 @@ public class LoginPage {
 
 	@Then("^user should login successfully$")
 	public void user_should_login_successfully() {
-	    String actual = GD.driver.getTitle();
+	    String actual = driver.getTitle();
 	    String Expected= "Slack1";
 	    
 	    SoftAssertions sa = new SoftAssertions();

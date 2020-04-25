@@ -1,6 +1,6 @@
 package testRunners;
 
-//import static common.GenericDriver.driver;
+import static common.GenericDriver.driver;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
@@ -25,26 +25,26 @@ public class TestRunnerFailed {
 	//public static HomePageLocaters HomePageInstance; 
 	//public static LoginPageLocaters LoginPageInstance;
 	
-	static GenericDriver Ch =new GenericDriver();
+	
 	@BeforeClass
 	public static void Browsersetup(){
 		
 		//GenericDriver.launchBrowser("Chrome");
-		Ch.launchChrome();
+		GenericDriver.launchBrowser("Chrome");
 		pageObjectSetup();
 		
 	}
 	
 	@AfterClass
 	public static void closeBrowser(){
-		Ch.driver.quit();
+		driver.quit();
 	}
 	
 	
 	public static void pageObjectSetup(){
 		
-			TestRunner.HomePageInstance = new HomePageLocaters(Ch.driver);
-			TestRunner.LoginPageInstance = new LoginPageLocaters(Ch.driver);
+			TestRunner.HomePageInstance = new HomePageLocaters(driver);
+			TestRunner.LoginPageInstance = new LoginPageLocaters(driver);
 	}
 	
 	

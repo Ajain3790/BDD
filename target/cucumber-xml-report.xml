@@ -1,32 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="2.80261">
-<testcase classname="Google Homepage" name="Luanch Home Page" time="2.80261">
-<failure message="org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'ABHISHEK', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 13880, moz:profile: C:\Users\a\AppData\Local\Te..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: c32af2e6-2d9b-4a56-8583-85f73224d0b7&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)&#13;&#10;&#9;at stepDefinitions.HomePage.homepage_should_be_launched_as_default_page(HomePage.java:28)&#13;&#10;&#9;at ✽.Homepage should be launched as default page(src/test/Features/HomePage.feature:7)&#13;&#10;"><![CDATA[When User enter valid URL "https://worldpayproduct.slack.com/"..............passed
-Then Homepage should be launched as default page............................failed
-When user click on Product Link.............................................skipped
-Then User should navigate to product page...................................skipped
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="22.568848">
+<testcase classname="Google Homepage" name="Luanch Home Page" time="22.568848">
+<failure message="org.assertj.core.api.SoftAssertionError: &#13;&#10;The following assertion failed:&#13;&#10;1) &#13;&#10;Expecting:&#13;&#10; &lt;&quot;Collaboration software | Slack&quot;&gt;&#13;&#10;to be equal to:&#13;&#10; &lt;&quot;Features | Slack&quot;&gt;&#13;&#10;ignoring case considerations&#13;&#10;at HomePage.user_should_navigate_to_product_page(HomePage.java:57)&#13;&#10;&#13;&#10;&#9;at org.assertj.core.api.SoftAssertions.assertAll(SoftAssertions.java:158)&#13;&#10;&#9;at stepDefinitions.HomePage.user_should_navigate_to_product_page(HomePage.java:58)&#13;&#10;&#9;at ✽.User should navigate to product page(src/test/Features/HomePage.feature:9)&#13;&#10;"><![CDATA[When User enter valid URL "https://worldpayproduct.slack.com/"..............passed
+Then Homepage should be launched as default page............................passed
+When user click on Product Link.............................................passed
+Then User should navigate to product page...................................failed
 
 StackTrace:
-org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ABHISHEK', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 13880, moz:profile: C:\Users\a\AppData\Local\Te..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c32af2e6-2d9b-4a56-8583-85f73224d0b7
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
-	at stepDefinitions.HomePage.homepage_should_be_launched_as_default_page(HomePage.java:28)
-	at ✽.Homepage should be launched as default page(src/test/Features/HomePage.feature:7)
+org.assertj.core.api.SoftAssertionError: 
+The following assertion failed:
+1) 
+Expecting:
+ <"Collaboration software | Slack">
+to be equal to:
+ <"Features | Slack">
+ignoring case considerations
+at HomePage.user_should_navigate_to_product_page(HomePage.java:57)
+
+	at org.assertj.core.api.SoftAssertions.assertAll(SoftAssertions.java:158)
+	at stepDefinitions.HomePage.user_should_navigate_to_product_page(HomePage.java:58)
+	at ✽.User should navigate to product page(src/test/Features/HomePage.feature:9)
 ]]></failure>
 </testcase>
 </testsuite>

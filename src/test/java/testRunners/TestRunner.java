@@ -9,8 +9,7 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
 import common.GenericDriver;
-
-import static common.GenericDriver.*;
+import static common.GenericDriver.driver;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import seleniumPage.HomePageLocaters;
@@ -39,25 +38,25 @@ public class TestRunner {
 	public static HomePageLocaters HomePageInstance; 
 	public static LoginPageLocaters LoginPageInstance;
 	
-	static GenericDriver CH =new GenericDriver();
+	
 	@BeforeClass
 	public static void Browsersetup(){
-		//String ChromeBrowser = System.getProperty("Chromebrowser");
-		CH.launchChrome();
+		
+		GenericDriver.launchBrowser("Chrome");
 		pageObjectSetup();
 		
 	}
 	
 	@AfterClass
 	public static void closeBrowser(){
-		CH.driver.quit();
+		driver.quit();
 	}
 	
 	
 	public static void pageObjectSetup(){
 		
-			HomePageInstance = new HomePageLocaters(CH.driver);
-			LoginPageInstance = new LoginPageLocaters(CH.driver);
+			HomePageInstance = new HomePageLocaters(driver);
+			LoginPageInstance = new LoginPageLocaters(driver);
 	}
 	
 	
