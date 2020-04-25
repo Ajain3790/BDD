@@ -18,8 +18,7 @@ import seleniumPage.LoginPageLocaters;
 plugin = {
         "rerun:target/rerun.txt"
 }
- , dryRun = false
-, monochrome = true		 
+		 
 )
 
 public class TestRunnerFailed {
@@ -30,14 +29,14 @@ public class TestRunnerFailed {
 	@BeforeClass
 	public static void Browsersetup(){
 		
-		GenericDriver.launchBrowser("FireFox");
+		GenericDriver.launchBrowser("Chrome");
 		pageObjectSetup();
 		
 	}
 	
 	@AfterClass
 	public static void closeBrowser(){
-		//driver.close();
+		driver.quit();
 	}
 	
 	

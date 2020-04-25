@@ -22,7 +22,7 @@ public class GenericDriver {
 	
 	    	WebDriverManager.chromedriver().setup();
 			ChromeOptions option=new ChromeOptions();
-			option.setHeadless(true);
+			//option.setHeadless(true);
 			option.setPageLoadStrategy(PageLoadStrategy.EAGER);
 			driver = new ChromeDriver(option);
 			driver.manage().window().maximize();
@@ -33,7 +33,7 @@ public class GenericDriver {
 	
 	    	WebDriverManager.firefoxdriver().setup();
 			FirefoxOptions option=new FirefoxOptions();
-			option.setHeadless(true);
+			//option.setHeadless(true);
 			option.setPageLoadStrategy(PageLoadStrategy.EAGER);
 			driver = new FirefoxDriver(option);
 			driver.manage().window().maximize();

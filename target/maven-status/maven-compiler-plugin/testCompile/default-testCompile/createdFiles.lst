@@ -5,4 +5,5 @@ testRunners\TestRunner.class
 seleniumPage\HomePageLocaters.class
 testRunners\TestRunnerFailed.class
 seleniumPage\AbstractPage.class
+testRunners\TestRunnerFireFox.class
 stepDefinitions\HomePage.class

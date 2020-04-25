@@ -1,16 +1,12 @@
 package testRunners;
 
-
-import java.util.concurrent.TimeUnit;
+import static common.GenericDriver.driver;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
-import org.openqa.selenium.WebDriver;
 
 import common.GenericDriver;
-
-import static common.GenericDriver.*;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import seleniumPage.HomePageLocaters;
@@ -34,16 +30,18 @@ plugin = {
 monochrome = true)
 
 
-public class TestRunner {
 
-	public static HomePageLocaters HomePageInstance; 
-	public static LoginPageLocaters LoginPageInstance;
+public class TestRunnerFireFox {
+	
+	//public static HomePageLocaters HomePageInstance; 
+	//public static LoginPageLocaters LoginPageInstance;
 	
 	
 	@BeforeClass
 	public static void Browsersetup(){
-		String ChromeBrowser = System.getProperty("Chromebrowser");
-		GenericDriver.launchBrowser(ChromeBrowser);
+		
+		String FirefoxBrowser = System.getProperty("Firefoxbrowser");
+		GenericDriver.launchBrowser(FirefoxBrowser);
 		pageObjectSetup();
 		
 	}
@@ -56,14 +54,8 @@ public class TestRunner {
 	
 	public static void pageObjectSetup(){
 		
-			HomePageInstance = new HomePageLocaters(driver);
-			LoginPageInstance = new LoginPageLocaters(driver);
+		TestRunner.HomePageInstance = new HomePageLocaters(driver);
+		TestRunner.LoginPageInstance = new LoginPageLocaters(driver);
 	}
-	
-	
-	
-	
-	
-	
 
 }

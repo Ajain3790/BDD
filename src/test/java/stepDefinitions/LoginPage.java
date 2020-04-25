@@ -12,9 +12,10 @@ import org.assertj.core.api.SoftAssertions;
 
 public class LoginPage {
 	
-	@Given("^user lands on login page$")
-	public void user_lands_on_login_page() {
-		//driver.navigate().back();
+	@Given("^user lands on login page \"([^\"]*)\"$")
+	public void user_lands_on_login_page(String arg1) {
+		
+		driver.get(arg1);
 	}
 
 	@When("^user enter valid email \"([^\"]*)\"$")
@@ -39,7 +40,7 @@ public class LoginPage {
 	@Then("^user should login successfully$")
 	public void user_should_login_successfully() {
 	    String actual = driver.getTitle();
-	    String Expected= "Slack";
+	    String Expected= "Slack1";
 	    
 	    SoftAssertions sa = new SoftAssertions();
 	    sa.assertThat(actual).isEqualToIgnoringCase(Expected);
