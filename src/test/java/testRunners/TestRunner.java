@@ -39,25 +39,25 @@ public class TestRunner {
 	public static HomePageLocaters HomePageInstance; 
 	public static LoginPageLocaters LoginPageInstance;
 	
-	
+	static GenericDriver CH =new GenericDriver();
 	@BeforeClass
 	public static void Browsersetup(){
 		//String ChromeBrowser = System.getProperty("Chromebrowser");
-		GenericDriver.launchChrome();
+		CH.launchChrome();
 		pageObjectSetup();
 		
 	}
 	
 	@AfterClass
 	public static void closeBrowser(){
-		driver.quit();
+		CH.driver.quit();
 	}
 	
 	
 	public static void pageObjectSetup(){
 		
-			HomePageInstance = new HomePageLocaters(driver);
-			LoginPageInstance = new LoginPageLocaters(driver);
+			HomePageInstance = new HomePageLocaters(CH.driver);
+			LoginPageInstance = new LoginPageLocaters(CH.driver);
 	}
 	
 	

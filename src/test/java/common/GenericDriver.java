@@ -13,9 +13,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class GenericDriver {
 	
-	public static WebDriver driver;
+	public WebDriver driver;
 	
-	public static void launchChrome()
+	public void launchChrome()
 	{
 		
 	
@@ -28,7 +28,7 @@ public class GenericDriver {
 			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 			
 		}
-	public static void launchFirefox()
+	public void launchFirefox()
 	{
 	
 	

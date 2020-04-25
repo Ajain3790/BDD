@@ -1,6 +1,6 @@
 package testRunners;
 
-import static common.GenericDriver.driver;
+//import static common.GenericDriver.driver;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
@@ -33,29 +33,31 @@ monochrome = true)
 
 public class TestRunnerFireFox {
 	
-	//public static HomePageLocaters HomePageInstance; 
+	static //public static HomePageLocaters HomePageInstance; 
 	//public static LoginPageLocaters LoginPageInstance;
-	
+	GenericDriver FF =new GenericDriver();
 	
 	@BeforeClass
 	public static void Browsersetup(){
 		
 		//String FirefoxBrowser = System.getProperty("Firefoxbrowser");
-		GenericDriver.launchFirefox();
+		//GenericDriver.launchFirefox();
+		
+		FF.launchFirefox();
 		pageObjectSetup();
 		
 	}
 	
 	@AfterClass
 	public static void closeBrowser(){
-		driver.quit();
+		FF.driver.quit();
 	}
 	
 	
 	public static void pageObjectSetup(){
 		
-		TestRunner.HomePageInstance = new HomePageLocaters(driver);
-		TestRunner.LoginPageInstance = new LoginPageLocaters(driver);
+		TestRunner.HomePageInstance = new HomePageLocaters(FF.driver);
+		TestRunner.LoginPageInstance = new LoginPageLocaters(FF.driver);
 	}
 
 }
