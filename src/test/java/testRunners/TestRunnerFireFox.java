@@ -20,7 +20,7 @@ plugin = {
          "pretty",
         "junit:target/cucumber-xml-report.xml",
         "html:target/cucumber-reports",
-        "json:target/test-results.json"
+        "json:target/test-resultsFF.json"
 		// "pretty", "json:target/cucumber-reports/Cucumber.json",
 		// "junit:target/cucumber-reports/Cucumber.xml",
 		// "html:target/cucumber-reports"
